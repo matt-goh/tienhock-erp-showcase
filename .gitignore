@@ -1,0 +1,24 @@
+# Presentation-only allowlist. Add new public files deliberately after review.
+# This does not remove tracked files or inspect allowed files for sensitive data.
+/*
+!/.gitignore
+!/README.md
+!/README.en.md
+!/assets/
+
+# Only these ten reviewed screenshot filenames may be added by default.
+/assets/*
+!/assets/en/
+!/assets/zh-Hans/
+/assets/en/*
+/assets/zh-Hans/*
+!/assets/en/overview.png
+!/assets/en/sales.png
+!/assets/en/accounting.png
+!/assets/en/payroll.png
+!/assets/en/inventory.png
+!/assets/zh-Hans/overview.png
+!/assets/zh-Hans/sales.png
+!/assets/zh-Hans/accounting.png
+!/assets/zh-Hans/payroll.png
+!/assets/zh-Hans/inventory.png
